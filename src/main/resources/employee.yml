@@ -1,0 +1,8 @@
+employee:
+  names: james,curry,zqzhong,姚明
+  type: 教练,球员,经理
+  age:
+    - one: 27
+    - two: 35
+    - three: 34
+    - four: 20

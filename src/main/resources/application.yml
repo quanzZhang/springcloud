@@ -1,0 +1,4 @@
+# 选着需要选择的配置文件
+spring:
+  profiles:
+    active: dev

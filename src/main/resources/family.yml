@@ -1,0 +1,18 @@
+# 注意些yml时一定要加上空格
+family:
+  family-name: happy family
+  father:
+    name: zq
+    age: ${random.int}
+  mother:
+    names:
+      - alice
+      - jojo
+  child:
+    name: ${family.father.name:zqson}
+    age: 1
+    friends:
+      - hobby: football
+        sex: male
+      - hobby: basketball
+        sex: female
